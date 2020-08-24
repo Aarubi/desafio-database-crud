@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render, fireEvent, act, wait } from '@testing-library/react';
+import { render, act,  fireEvent,wait} from '@testing-library/react';
 import AxiosMock from 'axios-mock-adapter';
 import api from '../../services/api';
 
